@@ -186,7 +186,3 @@ python app.py
 ## Author
 
 **Princy Nimmagadda**
-
-B.Tech Student, IIT Jodhpur
-
-Interested in Machine Learning, NLP, Data Science, and Software Engineering.
