@@ -1,0 +1,23 @@
+# hf_requirements.txt — HuggingFace Spaces / Docker requirements
+# Kept minimal for fast build times on free-tier HF Spaces (2 CPU, 16GB RAM)
+# torch is excluded — the deployed model is LogisticRegression (sklearn), not DistilBERT.
+# Add torch==2.3.0 here if you want to deploy the DistilBERT model instead.
+
+# Core ML
+scikit-learn==1.4.2
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.0
+joblib==1.4.2
+imbalanced-learn==0.12.2
+
+# Explainability
+shap==0.45.1
+
+# Web
+flask==3.0.3
+streamlit==1.35.0
+gunicorn==22.0.0
+
+# Utilities
+tqdm==4.66.4
